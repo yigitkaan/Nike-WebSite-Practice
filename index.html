@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Sitesi Ders Pratiği Projesi. Nike TR</title>
+    <link rel="icon" href="./images/nikeLogo.jpg" type="image/jpg" />
+    <meta
+      name="description"
+      content="En Yeni ve Mükemmel Ürünler - Ders Pratiği Nike Sitesi. Nike TR"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Anton&family=Concert+One&display=swap");
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./images/nikeLogo.jpg"
+        class="site-icon"
+        alt="Siyah renkli nike logosu"
+      />
+
+      <nav>
+        <ul class="header-links">
+          <a href="#">Yeni Ürünler ve Öne Çıkanlar</a>
+          <a href="#">Erkek</a>
+          <a href="#">Kadın</a>
+          <a href="#">Çocuk</a>
+        </ul>
+      </nav>
+      <section class="menu-icons">
+        <div class="search-input-container">
+          <img
+            src="./images/search-line-icon.svg"
+            class="icon-one"
+            alt="Arama ikonu"
+          />
+          <input type="text" class="search-input" placeholder="Ara" />
+        </div>
+        <img
+          src="./images/log-in.png"
+          class="icon-two"
+          alt="Kullanıcı girişi ikonu"
+        />
+        <img
+          src="./images/shopping-cart.png"
+          class="icon-three"
+          alt="Sepete ekleme ikonu"
+        />
+        <img
+          src="./images/hamburger.png"
+          class="icon-four"
+          alt="Açılır menü ikonu"
+        />
+      </section>
+    </header>
+    <main class="main">
+      <section class="hero-section">
+        <div class="hero-text">
+          <h2>OKULA <br />DAHA İYİ <br />DÖN</h2>
+          <p>Yeni okul yılına hazırlan!</p>
+        </div>
+        <div class="hero-buttons">
+          <button class="hero-btn one">Çocuk Ürünlerini İncele</button>
+          <button class="hero-btn two">Tümünü İncele</button>
+        </div>
+      </section>
+      <section class="info-section">
+        <img
+          src="./images/Nike-ads-techniques.webp"
+          alt="Yol ortasında spor amaçlı koşan kadın görseli"
+        />
+        <div class="info-text">
+          <h3>TÜRKİYE'DE NIKE ÜRÜNLERİNİ NASIL SATIN ALABİLİRSİN?</h3>
+          <p>
+            Türkiye gümrük mevzuatında yapılan son değişikliklerin etkileri
+            nedeniyle maalesef şu an için Nike.com ve Nike App üzerinden
+            alışveriş yapmak mümkün değildir. Durumu takip etmeye ve
+            Türkiye'deki tüketicilerimize en iyi şekilde hizmet sunmaya devam
+            edeceğiz.Bu süreçte favori ürünlerini sana en yakın Nike
+            mağazasından bulabilirsin. Nike Üyesi oalrak ürünlere öncelikli ve
+            özel erişim hakkına sahipsin. Ayrıca, Nike mağazaları ve Nike
+            fabrika satış mağazalarında üyelere özel fırsatlardan
+            yararlanabilirsin. <br /><br />Eğer Mağazalarımızı ziyaret edemiyor
+            ya da aradığın ürünü mağazamızda bulamıyorsanız, Nike.com'dan
+            sipariş verebilirsin.
+          </p>
+        </div>
+        <div class="info-buttons">
+          <button class="info-btn one">Nike Mağazası Bul</button>
+          <button class="info-btn two">Daha Fazla Bilgi</button>
+        </div>
+      </section>
+      <section class="products-section">
+        <h2>En Yeni ve Mükemmel Ürünler</h2>
+        <div class="slider">
+          <div class="slide active">
+            <img
+              src="./images/slider-images/image-1.png"
+              alt="Ayakkabı görseli"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/slider-images/image-2.png"
+              alt="Alt alta duran 3 adet ayakkabı görseli"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/slider-images/image-3.png"
+              alt="Futbolcu görseli"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/slider-images/image-4.png"
+              alt="Bisikletinin önünü kaldıran adam görseli"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/slider-images/image-5.png"
+              alt="Beyaz renkli spor kıyafeti ile yolda yürüyen kadın görseli"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/slider-images/image-6.png"
+              alt="Pembe renkli ayakkabı görseli"
+            />
+          </div>
+          <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+      </section>
+      <section class="subscription-info-section">
+        <h2>Nike Üyeliği</h2>
+        <div class="sub-infos">
+          <div class="sub-info one">
+            <img
+              src="./images/sub-info-1.png"
+              alt="Mutlu birbirine sarılmış iki arkadaş"
+            />
+            <div class="sub-text one">
+              <h3>Spor ve İyi Yaşam</h3>
+              <p>Dilediğin Gibi Hareket Et</p>
+              <button>Hareket Et</button>
+            </div>
+          </div>
+          <div class="sub-info two">
+            <img src="./images/sub-info-2.png" alt="Eğlenen arkadaş grubu" />
+            <div class="sub-text two">
+              <h3>Nike Uygulamaları</h3>
+              <p>En İyi Haline Ulaş</p>
+              <button>Nike App</button>
+            </div>
+          </div>
+          <div class="sub-info three">
+            <img src="./images/sub-info-3.png" alt="Arkadaş grubu fotoğrafı" />
+            <div class="sub-text three">
+              <h3>Üyelik Hakkında Daha Fazlası</h3>
+              <button>Keşfet</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 Yiğit Kaan Topcu, Inc. Tüm Hakları Saklıdır.</p>
+      <a href="#">Rehberler</a>
+      <a href="#">Kullanım Şartları</a>
+      <a href="#">Satış Şartları</a>
+      <a href="#">Şirket Ayrıntıları</a>
+      <a href="#">Gizlilik ve Tanımlama Bilgisi Politikası</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
